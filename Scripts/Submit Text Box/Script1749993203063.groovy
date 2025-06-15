@@ -17,5 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.navigateToUrl('google.com')
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://demoqa.com/text-box')
+
+WebUI.setText(findTestObject('Object Repository/Page_DEMOQA/input_Full Name_userName'), 'Ismi')
+
+WebUI.setText(findTestObject('Object Repository/Page_DEMOQA/input_Email_userEmail'), 'ismyisname@gmail.com')
+
+WebUI.setText(findTestObject('Object Repository/Page_DEMOQA/textarea_Current Address_currentAddress'), 'Jakarta Timur')
+
+WebUI.setText(findTestObject('Object Repository/Page_DEMOQA/textarea_Permanent Address_permanentAddress'), 'Jakarta Timur')
+
+WebUI.click(findTestObject('Object Repository/Page_DEMOQA/button_Submit'))
+
+WebUI.closeBrowser()
 
