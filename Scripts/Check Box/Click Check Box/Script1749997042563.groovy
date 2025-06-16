@@ -19,25 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://demoqa.com/text-box')
+WebUI.navigateToUrl('https://demoqa.com/checkbox')
 
-WebUI.setText(findTestObject('Object Repository/Text Box/input_Full Name_userName'), 'Ismi')
+WebUI.verifyElementClickable(findTestObject(null))
 
-WebUI.setText(findTestObject('Object Repository/Text Box/input_Email_userEmail'), 'ismyisname@gmail.com')
-
-WebUI.setText(findTestObject('Object Repository/Text Box/textarea_Current Address_currentAddress'), 'Jakarta Timur')
-
-WebUI.setText(findTestObject('Object Repository/Text Box/textarea_Permanent Address_permanentAddress'), 'Jakarta Timur')
-
-WebUI.click(findTestObject('Object Repository/Text Box/button_submit2'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/Text Box/text_name'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/Text Box/text_email'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/Text Box/text_currentAddress'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/Text Box/text_permanentAddress'))
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject(null))
 
