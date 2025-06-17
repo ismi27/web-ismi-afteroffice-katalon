@@ -29,7 +29,7 @@ WebUI.setText(findTestObject('Object Repository/Text Box/textarea_Current Addres
 
 WebUI.setText(findTestObject('Object Repository/Text Box/textarea_Permanent Address_permanentAddress'), 'Jakarta Timur')
 
-WebUI.click(findTestObject('Object Repository/Text Box/button_submit2'))
+WebUI.click(findTestObject('Text Box/button_Submit'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Text Box/text_name'))
 

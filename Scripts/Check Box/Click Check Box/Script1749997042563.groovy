@@ -21,7 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demoqa.com/checkbox')
 
-WebUI.verifyElementClickable(findTestObject(null))
+WebUI.check(findTestObject('Check Box/checkbox_home'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject(null))
+WebUI.verifyElementPresent(findTestObject('Check Box/text_result'), 0)
+
+WebUI.closeBrowser()
 
