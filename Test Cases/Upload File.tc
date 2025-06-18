@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Test_Forms</name>
+   <name>Upload File</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>9733fb60-3057-41c6-b50b-bca43759bbbb</testCaseGuid>
+   <testCaseGuid>90309130-c355-42c1-ab5f-7c98e3205701</testCaseGuid>
 </TestCaseEntity>

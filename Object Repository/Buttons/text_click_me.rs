@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>text_click_me</name>
+   <tag></tag>
+   <elementGuidId>601dce7e-5034-4795-8bcb-8dc7a4922a9e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[@id='dynamicClickMessage']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//p[@id='dynamicClickMessage']</value>
+      <webElementGuid>f4e6039f-ac00-4d70-8455-75ba2e1021e3</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

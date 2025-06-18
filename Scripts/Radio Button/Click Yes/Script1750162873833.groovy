@@ -17,3 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://demoqa.com/radio-button')
+
+WebUI.click(findTestObject('Radio Button/radio_button_yes'))
+
+WebUI.verifyElementPresent(findTestObject('Radio Button/text_selected'), 0)
+
+WebUI.closeBrowser()
+
