@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>text_upload</name>
+   <tag></tag>
+   <elementGuidId>89ad201d-19d2-4b07-a5ff-fac1ab7e995e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[@id=&quot;uploadedFilePath&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//p[@id=&quot;uploadedFilePath&quot;]</value>
+      <webElementGuid>1a59fb8f-bf3d-4016-9389-b52d1bc4c920</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
