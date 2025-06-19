@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Buttons,,,,19-06-2025 20:31:08,19-06-2025 20:31:09,1.710s,FAILED
+,,,,,,,
+Test Cases/Buttons/Double Click Me,,,,19-06-2025 20:31:08,19-06-2025 20:31:09,1.043s,FAILED
+"openBrowser("""")",,,,19-06-2025 20:31:08,19-06-2025 20:31:09,0.777s,FAILED
+,,,,,,,
+Test Cases/Buttons/Click Me,,,,19-06-2025 20:31:09,19-06-2025 20:31:09,0.097s,FAILED
+"openBrowser("""")",,,,19-06-2025 20:31:09,19-06-2025 20:31:09,0.054s,FAILED
+,,,,,,,
+Test Cases/Radio Button/Click Yes,,,,19-06-2025 20:31:09,19-06-2025 20:31:09,0.092s,FAILED
+"openBrowser("""")",,,,19-06-2025 20:31:09,19-06-2025 20:31:09,0.053s,FAILED
+,,,,,,,
+Test Cases/Radio Button/Click Impressive,,,,19-06-2025 20:31:09,19-06-2025 20:31:09,0.098s,FAILED
+"openBrowser("""")",,,,19-06-2025 20:31:09,19-06-2025 20:31:09,0.065s,FAILED
+,,,,,,,
+Test Cases/Radio Button/Click No,,,,19-06-2025 20:31:09,19-06-2025 20:31:09,0.084s,FAILED
+"openBrowser("""")",,,,19-06-2025 20:31:09,19-06-2025 20:31:09,0.051s,FAILED

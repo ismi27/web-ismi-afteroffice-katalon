@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Buttons,Edge Chromium 137.0.3296.83,,,19-06-2025 20:53:26,19-06-2025 21:04:50,11m - 24.715s,FAILED
+,,,,,,,
+Test Cases/Buttons/Double Click Me,Edge Chromium 137.0.3296.83,,,19-06-2025 20:53:26,19-06-2025 20:56:55,3m - 28.891s,FAILED
+"openBrowser("""")",Edge Chromium 137.0.3296.83,,,19-06-2025 20:53:26,19-06-2025 20:53:29,2.900s,PASSED
+"navigateToUrl(""https://demoqa.com/buttons"")",Edge Chromium 137.0.3296.83,,,19-06-2025 20:53:29,19-06-2025 20:56:22,2m - 52.534s,PASSED
+"doubleClick(findTestObject(""Buttons/button_double_click_me""))",Edge Chromium 137.0.3296.83,,,19-06-2025 20:56:22,19-06-2025 20:56:23,1.193s,PASSED
+"verifyElementVisible(findTestObject(""Buttons/text_double_click_me""))",Edge Chromium 137.0.3296.83,,,19-06-2025 20:56:23,19-06-2025 20:56:55,31.997s,FAILED
+,,,,,,,
+Test Cases/Buttons/Click Me,Edge Chromium 137.0.3296.83,,,19-06-2025 20:56:55,19-06-2025 20:57:42,47.238s,FAILED
+"openBrowser("""")",Edge Chromium 137.0.3296.83,,,19-06-2025 20:56:55,19-06-2025 20:56:57,2.534s,PASSED
+"navigateToUrl(""https://demoqa.com/buttons"")",Edge Chromium 137.0.3296.83,,,19-06-2025 20:56:57,19-06-2025 20:57:09,11.424s,PASSED
+"click(findTestObject(""Buttons/button_click_me""))",Edge Chromium 137.0.3296.83,,,19-06-2025 20:57:09,19-06-2025 20:57:42,33.226s,FAILED
+,,,,,,,
+Test Cases/Radio Button/Click Yes,Edge Chromium 137.0.3296.83,,,19-06-2025 20:57:42,19-06-2025 21:00:17,2m - 35.256s,FAILED
+"openBrowser("""")",Edge Chromium 137.0.3296.83,,,19-06-2025 20:57:42,19-06-2025 20:57:44,2.430s,PASSED
+"navigateToUrl(""https://demoqa.com/radio-button"")",Edge Chromium 137.0.3296.83,,,19-06-2025 20:57:44,19-06-2025 20:57:46,1.234s,PASSED
+"click(findTestObject(""Radio Button/radio_button_yes""))",Edge Chromium 137.0.3296.83,,,19-06-2025 20:57:46,19-06-2025 21:00:17,2m - 31.550s,FAILED
+,,,,,,,
+Test Cases/Radio Button/Click Impressive,Edge Chromium 137.0.3296.83,,,19-06-2025 21:00:17,19-06-2025 21:03:26,3m - 9.097s,FAILED
+"openBrowser("""")",Edge Chromium 137.0.3296.83,,,19-06-2025 21:00:17,19-06-2025 21:00:19,2.213s,PASSED
+"navigateToUrl(""https://demoqa.com/radio-button"")",Edge Chromium 137.0.3296.83,,,19-06-2025 21:00:19,19-06-2025 21:03:26,3m - 6.836s,FAILED
+,,,,,,,
+Test Cases/Radio Button/Click No,Edge Chromium 137.0.3296.83,,,19-06-2025 21:03:26,19-06-2025 21:04:50,1m - 23.905s,PASSED
+"openBrowser("""")",Edge Chromium 137.0.3296.83,,,19-06-2025 21:03:26,19-06-2025 21:03:41,14.662s,PASSED
+"navigateToUrl(""https://demoqa.com/radio-button"")",Edge Chromium 137.0.3296.83,,,19-06-2025 21:03:41,19-06-2025 21:04:18,36.777s,PASSED
+"waitForElementVisible(findTestObject(""Radio Button/radio_button_no""), 0)",Edge Chromium 137.0.3296.83,,,19-06-2025 21:04:18,19-06-2025 21:04:49,31.195s,WARNING
+closeBrowser(),Edge Chromium 137.0.3296.83,,,19-06-2025 21:04:49,19-06-2025 21:04:50,1.211s,PASSED

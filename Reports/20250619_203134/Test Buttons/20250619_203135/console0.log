@@ -1,0 +1,375 @@
+2025-06-19 20:31:41.994 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Test Buttons
+2025-06-19 20:31:42.060 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Ismi Rizki Sopiyanti
+2025-06-19 20:31:42.060 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = web-ismi-afteroffice-katalon
+2025-06-19 20:31:42.061 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = mac - localhost
+2025-06-19 20:31:42.061 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2025-06-19 20:31:42.061 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 127.0.0.1
+2025-06-19 20:31:42.062 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.0.0
+2025-06-19 20:31:42.297 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-19 20:31:42.297 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Buttons/Double Click Me
+2025-06-19 20:31:42.541 DEBUG testcase.Double Click Me                 - 1: openBrowser("")
+2025-06-19 20:31:42.656 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2025-06-19 20:31:42.698 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 19, 2025 8:31:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 19, 2025 8:31:45 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.3296.83. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-19 20:31:46.241 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 221ed911135e721951149b45b1347133
+2025-06-19 20:31:46.243 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 137.0.3296.83
+2025-06-19 20:31:46.243 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-06-19 20:31:46.244 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-19 20:31:46.250 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-19 20:31:46.285 DEBUG testcase.Double Click Me                 - 2: navigateToUrl("https://demoqa.com/buttons")
+2025-06-19 20:34:38.068 DEBUG testcase.Double Click Me                 - 3: doubleClick(findTestObject("Buttons/button_double_click_me"))
+2025-06-19 20:34:39.310 WARN  c.k.k.c.w.h.s.WebUIScreenCaptor          - Cannot take screenshot
+2025-06-19 20:34:39.337 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to double click on object 'Object Repository/Buttons/button_double_click_me' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to double click on object 'Object Repository/Buttons/button_double_click_me'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword.doubleClick(DoubleClickKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword.execute(DoubleClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.doubleClick(WebUiBuiltInKeywords.groovy:803)
+	at Double Click Me.run(Double Click Me:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1750339895847.run(TempTestSuite1750339895847.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Command: [221ed911135e721951149b45b1347133, findElements {using=xpath, value=//*[@id = 'doubleClickBtn']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60492}, msedge: {msedgedriverVersion: 137.0.3296.83 (24e00e9cccf2..., userDataDir: /var/folders/9q/7hzncjzd67n...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60492/devtoo..., se:cdpVersion: 137.0.3296.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:48323/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 221ed911135e721951149b45b1347133
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:381)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:375)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$h8OE1uAB.findElements(Unknown Source)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1063)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:948)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:936)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:931)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:927)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:759)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1447)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword$_doubleClick_closure1.doCall(DoubleClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword$_doubleClick_closure1.call(DoubleClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword.doubleClick(DoubleClickKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword.execute(DoubleClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.doubleClick(WebUiBuiltInKeywords.groovy:803)
+	at Script1750256904074.run(Script1750256904074.groovy:24)
+	... 15 more
+)
+2025-06-19 20:34:39.368 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Buttons/Double Click Me FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to double click on object 'Object Repository/Buttons/button_double_click_me'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword.doubleClick(DoubleClickKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword.execute(DoubleClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.doubleClick(WebUiBuiltInKeywords.groovy:803)
+	at Double Click Me.run(Double Click Me:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1750339895847.run(TempTestSuite1750339895847.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Command: [221ed911135e721951149b45b1347133, findElements {using=xpath, value=//*[@id = 'doubleClickBtn']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60492}, msedge: {msedgedriverVersion: 137.0.3296.83 (24e00e9cccf2..., userDataDir: /var/folders/9q/7hzncjzd67n...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60492/devtoo..., se:cdpVersion: 137.0.3296.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:48323/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 221ed911135e721951149b45b1347133
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:381)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:375)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$h8OE1uAB.findElements(Unknown Source)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1063)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:948)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:936)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:931)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:927)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:759)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1447)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword$_doubleClick_closure1.doCall(DoubleClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword$_doubleClick_closure1.call(DoubleClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+
+2025-06-19 20:34:39.398 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Buttons/Double Click Me
+2025-06-19 20:34:39.412 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-19 20:34:39.413 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Buttons/Click Me
+2025-06-19 20:34:39.487 DEBUG testcase.Click Me                        - 1: openBrowser("")
+2025-06-19 20:34:39.496 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-06-19 20:34:40.611 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2025-06-19 20:34:40.613 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 19, 2025 8:34:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 19, 2025 8:34:41 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.3296.83. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-19 20:34:41.730 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = d9b43d8f1d779b710451ec93f5666dbc
+2025-06-19 20:34:41.731 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 137.0.3296.83
+2025-06-19 20:34:41.731 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-06-19 20:34:41.732 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-19 20:34:41.733 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-19 20:34:41.750 DEBUG testcase.Click Me                        - 2: navigateToUrl("https://demoqa.com/buttons")
+2025-06-19 20:35:20.404 DEBUG testcase.Click Me                        - 3: click(findTestObject("Buttons/button_click_me"))
+2025-06-19 20:35:42.842 DEBUG testcase.Click Me                        - 4: verifyElementVisible(findTestObject("Buttons/text_click_me"), STOP_ON_FAILURE)
+2025-06-19 20:35:43.244 DEBUG testcase.Click Me                        - 5: closeBrowser()
+2025-06-19 20:35:44.616 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Buttons/Click Me
+2025-06-19 20:35:44.620 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-19 20:35:44.621 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Radio Button/Click Yes
+2025-06-19 20:35:44.665 DEBUG testcase.Click Yes                       - 1: openBrowser("")
+2025-06-19 20:35:44.668 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2025-06-19 20:35:44.670 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 19, 2025 8:35:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 19, 2025 8:35:45 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.3296.83. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-19 20:35:45.555 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ab194216f439a74683a4a30c9983d314
+2025-06-19 20:35:45.555 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 137.0.3296.83
+2025-06-19 20:35:45.556 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-06-19 20:35:45.556 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-19 20:35:45.556 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-19 20:35:45.571 DEBUG testcase.Click Yes                       - 2: navigateToUrl("https://demoqa.com/radio-button")
+2025-06-19 20:38:35.182 DEBUG testcase.Click Yes                       - 3: click(findTestObject("Radio Button/radio_button_yes"))
+2025-06-19 20:39:08.775 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/Radio Button/radio_button_yes' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Radio Button/radio_button_yes'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Click Yes.run(Click Yes:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1750339895847.run(TempTestSuite1750339895847.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <label class="custom-control-label" for="yesRadio">...</label> is not clickable at point (355, 575). Other element would receive the click: <iframe frameborder="0" src="https://27741b934171b5d46396e77c66ed6629.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html" id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="728" height="90" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="private-state-token-redemption;attribution-reporting" aria-label="Advertisement" tabindex="0" data-google-container-id="1" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe>
+  (Session info: MicrosoftEdge=137.0.3296.83)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Command: [ab194216f439a74683a4a30c9983d314, clickElement {id=f.C57AC49724F9DB970935B7E76E499F61.d.52046A3A60F4E606891791BE0681B42D.e.31}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61870}, msedge: {msedgedriverVersion: 137.0.3296.83 (24e00e9cccf2..., userDataDir: /var/folders/9q/7hzncjzd67n...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:61870/devtoo..., se:cdpVersion: 137.0.3296.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:37685/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CEdgeDriver: MicrosoftEdge on mac (ab194216f439a74683a4a30c9983d314)] -> xpath: //label[@for='yesRadio']
+]
+Session ID: ab194216f439a74683a4a30c9983d314
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$Ihd0JyDa.click(Unknown Source)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1750162873833.run(Script1750162873833.groovy:24)
+	... 15 more
+)
+2025-06-19 20:39:08.781 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Radio Button/Click Yes FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Radio Button/radio_button_yes'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Click Yes.run(Click Yes:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1750339895847.run(TempTestSuite1750339895847.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <label class="custom-control-label" for="yesRadio">...</label> is not clickable at point (355, 575). Other element would receive the click: <iframe frameborder="0" src="https://27741b934171b5d46396e77c66ed6629.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html" id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="728" height="90" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="private-state-token-redemption;attribution-reporting" aria-label="Advertisement" tabindex="0" data-google-container-id="1" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe>
+  (Session info: MicrosoftEdge=137.0.3296.83)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Command: [ab194216f439a74683a4a30c9983d314, clickElement {id=f.C57AC49724F9DB970935B7E76E499F61.d.52046A3A60F4E606891791BE0681B42D.e.31}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61870}, msedge: {msedgedriverVersion: 137.0.3296.83 (24e00e9cccf2..., userDataDir: /var/folders/9q/7hzncjzd67n...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:61870/devtoo..., se:cdpVersion: 137.0.3296.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:37685/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CEdgeDriver: MicrosoftEdge on mac (ab194216f439a74683a4a30c9983d314)] -> xpath: //label[@for='yesRadio']
+]
+Session ID: ab194216f439a74683a4a30c9983d314
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$Ihd0JyDa.click(Unknown Source)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+
+2025-06-19 20:39:08.784 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Radio Button/Click Yes
+2025-06-19 20:39:08.787 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-19 20:39:08.788 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Radio Button/Click Impressive
+2025-06-19 20:39:08.820 DEBUG testcase.Click Impressive                - 1: openBrowser("")
+2025-06-19 20:39:08.828 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-06-19 20:39:10.131 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2025-06-19 20:39:10.134 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 19, 2025 8:39:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 19, 2025 8:39:11 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.3296.83. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-19 20:39:11.251 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 521e77d53ebbfdf50ce09be2fb24f682
+2025-06-19 20:39:11.251 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 137.0.3296.83
+2025-06-19 20:39:11.252 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-06-19 20:39:11.252 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-19 20:39:11.252 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-19 20:39:11.264 DEBUG testcase.Click Impressive                - 2: navigateToUrl("https://demoqa.com/radio-button")
+2025-06-19 20:41:55.236 DEBUG testcase.Click Impressive                - 3: click(findTestObject("Radio Button/radio_button_impressive"))
+2025-06-19 20:41:56.764 DEBUG testcase.Click Impressive                - 4: verifyElementPresent(findTestObject("Radio Button/text_selected"), 0)
+2025-06-19 20:41:56.796 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-19 20:41:57.232 DEBUG testcase.Click Impressive                - 5: closeBrowser()
+2025-06-19 20:41:58.539 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Radio Button/Click Impressive
+2025-06-19 20:41:58.544 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-06-19 20:41:58.544 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Radio Button/Click No
+2025-06-19 20:41:58.578 DEBUG testcase.Click No                        - 1: openBrowser("")
+2025-06-19 20:41:58.582 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2025-06-19 20:41:58.583 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jun 19, 2025 8:41:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 137
+Jun 19, 2025 8:41:59 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 137.0.3296.83. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-06-19 20:41:59.690 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 11d96489461a9239f371bebe03434d6c
+2025-06-19 20:41:59.691 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 137.0.3296.83
+2025-06-19 20:41:59.691 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-06-19 20:41:59.691 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-06-19 20:41:59.692 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-06-19 20:41:59.701 DEBUG testcase.Click No                        - 2: navigateToUrl("https://demoqa.com/radio-button")
+2025-06-19 20:44:44.551 DEBUG testcase.Click No                        - 3: waitForElementVisible(findTestObject("Radio Button/radio_button_no"), 0)
+2025-06-19 20:44:44.623 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-06-19 20:45:15.759 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //*[@id = concat("//input[@id=" , "'" , "noRadio" , "'" , "]")]'. Please recheck the objects properties to make sure the desired element is located. 
+2025-06-19 20:45:15.771 WARN  k.k.c.w.k.b.WaitForElementVisibleKeyword - Web element with id: 'Object Repository/Radio Button/radio_button_no' located by '//*[@id = concat("//input[@id=" , "'" , "noRadio" , "'" , "]")]' not found
+2025-06-19 20:45:15.773 DEBUG testcase.Click No                        - 4: closeBrowser()
+2025-06-19 20:45:17.030 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Radio Button/Click No
+2025-06-19 20:45:17.054 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-06-19 20:45:17.054 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Test Buttons
+2025-06-19 20:45:17.054 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Box,,,,19-06-2025 20:31:14,19-06-2025 20:31:15,1.061s,FAILED
+,,,,,,,
+Test Cases/Check Box/Click Check Box,,,,19-06-2025 20:31:14,19-06-2025 20:31:15,0.680s,FAILED
+"openBrowser("""")",,,,19-06-2025 20:31:14,19-06-2025 20:31:15,0.444s,FAILED
+,,,,,,,
+Test Cases/Text Box/Submit Text Box,,,,19-06-2025 20:31:15,19-06-2025 20:31:15,0.117s,FAILED
+"openBrowser("""")",,,,19-06-2025 20:31:15,19-06-2025 20:31:15,0.068s,FAILED

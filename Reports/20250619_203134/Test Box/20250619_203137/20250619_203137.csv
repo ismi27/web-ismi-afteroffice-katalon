@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Box,Edge Chromium 137.0.3296.83,,,19-06-2025 20:45:22,19-06-2025 20:47:46,2m - 24.042s,FAILED
+,,,,,,,
+Test Cases/Check Box/Click Check Box,Edge Chromium 137.0.3296.83,,,19-06-2025 20:45:22,19-06-2025 20:45:33,11.158s,FAILED
+"openBrowser("""")",Edge Chromium 137.0.3296.83,,,19-06-2025 20:45:22,19-06-2025 20:45:24,1.757s,PASSED
+"navigateToUrl(""https://demoqa.com/checkbox"")",Edge Chromium 137.0.3296.83,,,19-06-2025 20:45:24,19-06-2025 20:45:25,1.233s,PASSED
+"check(findTestObject(""Check Box/checkbox_home""), STOP_ON_FAILURE)",Edge Chromium 137.0.3296.83,,,19-06-2025 20:45:25,19-06-2025 20:45:33,7.916s,FAILED
+,,,,,,,
+Test Cases/Text Box/Submit Text Box,Edge Chromium 137.0.3296.83,,,19-06-2025 20:45:33,19-06-2025 20:47:44,2m - 11.334s,FAILED
+"openBrowser("""")",Edge Chromium 137.0.3296.83,,,19-06-2025 20:45:33,19-06-2025 20:45:35,2.308s,PASSED
+"navigateToUrl(""https://demoqa.com/text-box"")",Edge Chromium 137.0.3296.83,,,19-06-2025 20:45:35,19-06-2025 20:47:44,2m - 8.973s,FAILED

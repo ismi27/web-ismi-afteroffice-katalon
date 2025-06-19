@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Box,Edge Chromium 137.0.3296.83,,,19-06-2025 20:48:24,19-06-2025 20:52:55,4m - 30.226s,FAILED
+,,,,,,,
+Test Cases/Check Box/Click Check Box,Edge Chromium 137.0.3296.83,,,19-06-2025 20:48:25,19-06-2025 20:49:26,1m - 1.805s,FAILED
+"openBrowser("""")",Edge Chromium 137.0.3296.83,,,19-06-2025 20:48:25,19-06-2025 20:48:28,2.793s,PASSED
+"navigateToUrl(""https://demoqa.com/checkbox"")",Edge Chromium 137.0.3296.83,,,19-06-2025 20:48:28,19-06-2025 20:49:23,55.790s,PASSED
+"check(findTestObject(""Check Box/checkbox_home""), STOP_ON_FAILURE)",Edge Chromium 137.0.3296.83,,,19-06-2025 20:49:23,19-06-2025 20:49:26,2.939s,FAILED
+,,,,,,,
+Test Cases/Text Box/Submit Text Box,Edge Chromium 137.0.3296.83,,,19-06-2025 20:49:26,19-06-2025 20:52:53,3m - 26.849s,FAILED
+"openBrowser("""")",Edge Chromium 137.0.3296.83,,,19-06-2025 20:49:26,19-06-2025 20:49:29,2.367s,PASSED
+"navigateToUrl(""https://demoqa.com/text-box"")",Edge Chromium 137.0.3296.83,,,19-06-2025 20:49:29,19-06-2025 20:52:17,2m - 48.467s,PASSED
+"setText(findTestObject(""Object Repository/Text Box/input_Full Name_userName""), ""Ismi"")",Edge Chromium 137.0.3296.83,,,19-06-2025 20:52:17,19-06-2025 20:52:19,1.524s,PASSED
+"setText(findTestObject(""Object Repository/Text Box/input_Email_userEmail""), ""ismyisname@gmail.com"")",Edge Chromium 137.0.3296.83,,,19-06-2025 20:52:19,19-06-2025 20:52:19,0.659s,PASSED
+"setText(findTestObject(""Object Repository/Text Box/textarea_Current Address_currentAddress""), ""Jakarta Timur"")",Edge Chromium 137.0.3296.83,,,19-06-2025 20:52:19,19-06-2025 20:52:20,0.556s,PASSED
+"setText(findTestObject(""Object Repository/Text Box/textarea_Permanent Address_permanentAddress""), ""Jakarta Timur"")",Edge Chromium 137.0.3296.83,,,19-06-2025 20:52:20,19-06-2025 20:52:21,0.509s,PASSED
+"click(findTestObject(""Text Box/button_Submit""))",Edge Chromium 137.0.3296.83,,,19-06-2025 20:52:21,19-06-2025 20:52:53,32.712s,FAILED

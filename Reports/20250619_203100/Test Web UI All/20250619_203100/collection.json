@@ -1,0 +1,14 @@
+{
+  "id": "Test Suites/Test Web UI All",
+  "name": "Test Web UI All",
+  "reportFolder": "/Users/mac/git/web-ismi-afteroffice-katalon/Reports/20250619_203100/Test Web UI All/20250619_203100",
+  "startTime": 1750339866504,
+  "endTime": 1750339875936,
+  "totalPassedTestCases": "0",
+  "totalErrorTestCases": "0",
+  "totalFailedTestCases": "7",
+  "totalTestCases": "7",
+  "totalIncompleteTestCases": "0",
+  "totalSkippedTestCases": "0",
+  "description": ""
+}
